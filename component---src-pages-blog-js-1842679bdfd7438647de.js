@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[7],{5502:function(e,t,a){a.r(t),a.d(t,{default:function(){return l}});var r=a(1597),n=a(7294);function l(){return n.createElement("div",{className:"blog"},n.createElement(r.Link,{to:"/"},n.createElement("i",{class:"fab fa-arrow-circle-left","aria-hidden":"true"})," Back Home"),n.createElement("h2",null,"Coming Soon!"))}}}]);
+//# sourceMappingURL=component---src-pages-blog-js-1842679bdfd7438647de.js.map
