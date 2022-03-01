@@ -3,32 +3,16 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+  <div className="navigation">
+      <nav>
+        <Link to="/" className="logo">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Code/
+           <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </Link> 
+        <Link to="/blog">/ Blog</Link>
+      </nav>
     </div>
-  </header>
 )
 
 Header.propTypes = {
