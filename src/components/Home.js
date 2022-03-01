@@ -9,7 +9,8 @@ const Home = () => {
             <h1 className="into">Hello,</h1>
             <div className="typography-headline">
               <span>Welcome to Michelle's web space</span>
-              <div className="product-name">Design + code.
+              <div className="product-name">Design 
+                <div className="plus">+ </div>code.
               <span></span>
               </div>
               <div className="skills-icons">

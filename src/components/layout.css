@@ -596,5 +596,19 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+
+  .typography-headline{
+    font-size: 2rem;
+  }
+  .home .jumbotron{
+    padding-top: 30%;
+  }
+  .product-name{
+    font-size: 3rem;  
+  }
+  .product-name > .plus{
+    display:block; 
+  }
 }
+
 
